@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "binary_name": "tracker-extract-3",
+      "uid": 1000,
+      "arguments_count": 2,
+      "target": 0
+    },
+    {
+      "binary_name": "tracker-miner-fs-3",
+      "uid": 1000,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "sh",
+      "uid": 1000,
+      "arguments_count": 28,
+      "target": 1
+    },
+    {
+      "binary_name": "python3",
+      "uid": 1000,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "pgrep",
+      "uid": 1000,
+      "arguments_count": 2,
+      "target": 1
+    },
+    {
+      "binary_name": "gcore",
+      "uid": 1000,
+      "arguments_count": 6,
+      "target": 1
+    },
+    {
+      "binary_name": "bash",
+      "uid": 1000,
+      "arguments_count": 5,
+      "target": 1
+    },
+    {
+      "binary_name": "dirname",
+      "uid": 1000,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "gdb",
+      "uid": 1000,
+      "arguments_count": 30,
+      "target": 1
+    },
+    {
+      "binary_name": "iconv",
+      "uid": 1000,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "sh",
+      "uid": 0,
+      "arguments_count": 10,
+      "target": 0
+    },
+    {
+      "binary_name": "cron",
+      "uid": 0,
+      "arguments_count": 2,
+      "target": 0
+    },
+    {
+      "binary_name": "debian-sa1",
+      "uid": 0,
+      "arguments_count": 3,
+      "target": 0
+    },
+    {
+      "binary_name": "[kworker/0:1-events]",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "[kthreadd]",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "[kworker/u8:7-events_unbound]",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "run-parts",
+      "uid": 0,
+      "arguments_count": 2,
+      "target": 0
+    },
+    {
+      "binary_name": "9",
+      "uid": 0,
+      "arguments_count": 6,
+      "target": 0
+    },
+    {
+      "binary_name": "systemd",
+      "uid": 0,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "sa1",
+      "uid": 0,
+      "arguments_count": 3,
+      "target": 0
+    },
+    {
+      "binary_name": "sadc",
+      "uid": 0,
+      "arguments_count": 7,
+      "target": 0
+    },
+    {
+      "binary_name": "gjs",
+      "uid": 1000,
+      "arguments_count": 4,
+      "target": 0
+    },
+    {
+      "binary_name": "ding.js",
+      "uid": 1000,
+      "arguments_count": 5,
+      "target": 0
+    },
+    {
+      "binary_name": "install",
+      "uid": 0,
+      "arguments_count": 8,
+      "target": 0
+    },
+    {
+      "binary_name": "mandb",
+      "uid": 6,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "[kworker/u8:8-loop7]",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "gdm-session-worker",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "fprintd",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "gnome-shell",
+      "uid": 1000,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "nautilus",
+      "uid": 1000,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "Default",
+      "uid": 0,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "anacron",
+      "uid": 0,
+      "arguments_count": 3,
+      "target": 0
+    },
+    {
+      "binary_name": "[kworker/u8:5-events_unbound]",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    },
+    {
+      "binary_name": "fwupdmgr",
+      "uid": 989,
+      "arguments_count": 1,
+      "target": 0
+    },
+    {
+      "binary_name": "fwupd",
+      "uid": 0,
+      "arguments_count": 0,
+      "target": 0
+    }
+  ],
+  "links": [
+    {
+      "source": {
+        "binary_name": "tracker-miner-fs-3",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "tracker-extract-3",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "python3",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "sh",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "sh",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "pgrep",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "sh",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "gcore",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "gcore",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "bash",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "bash",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "dirname",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "bash",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "gdb",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "gdb",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "iconv",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "cron",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "sh",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "sh",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "debian-sa1",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "cron",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "cron",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "[kthreadd]",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "[kworker/0:1-events]",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "[kthreadd]",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "[kworker/u8:7-events_unbound]",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "[kthreadd]",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "[kthreadd]",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "sh",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "run-parts",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "systemd",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "9",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "sa1",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "sa1",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "sadc",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "systemd",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "systemd",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "ding.js",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "gjs",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "install",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "mandb",
+        "uid": 6
+      }
+    },
+    {
+      "source": {
+        "binary_name": "[kthreadd]",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "[kworker/u8:8-loop7]",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "gdm-session-worker",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "gdm-session-worker",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "fprintd",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "gnome-shell",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "ding.js",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "gjs",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "nautilus",
+        "uid": 1000
+      }
+    },
+    {
+      "source": {
+        "binary_name": "gdm-session-worker",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "Default",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "anacron",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "[kthreadd]",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "[kworker/u8:5-events_unbound]",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "fwupdmgr",
+        "uid": 989
+      }
+    },
+    {
+      "source": {
+        "binary_name": "9",
+        "uid": 0
+      },
+      "target": {
+        "binary_name": "fwupd",
+        "uid": 0
+      }
+    },
+    {
+      "source": {
+        "binary_name": "bash",
+        "uid": 1000
+      },
+      "target": {
+        "binary_name": "python3",
+        "uid": 1000
+      }
+    }
+  ],
+  "attack_count": 5
+}
