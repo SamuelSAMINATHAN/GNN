@@ -1,4 +1,4 @@
-# GNN - CyBrain Detection System
+# GNN 
 
 ## Overview
 
